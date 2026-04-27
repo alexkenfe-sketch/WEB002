@@ -1,0 +1,67 @@
+<!--Alexander Kenfe 4/25/26-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="container"></div>
+<header>
+    <img src="logo-1.jpg" alt="logo">
+    <h2>Contact Us</h2>
+    <p>Please complete the form provided.</p>
+<main>
+    <form>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" required>
+
+        <input type="tel" id="phone" name="phone"  placeholder="123-456-7890">
+        <div class="form-group">
+            <label>How would you prefer we contact you?</label>
+            <div class="contact-options">
+                <div class="radio-option">
+        </div>
+        <fieldset class="radio-group">
+    <legend>Preferred Contact Method</legend>
+
+    <label>
+      <input type="radio" name="contact" value="email" required>
+      Email
+    </label>
+
+    <label>
+      <input type="radio" name="contact" value="phone" required>
+      Phone
+    </label>
+
+    <label>
+      <input type="radio" name="contact" value="text" required>
+      Text
+    </label>
+    
+    <label>
+      <input type="radio" name="contact" value="no preference" required>
+      No Preference
+    </label>
+    </fieldset>
+    <input type="submit" value="Submit">
+    </form>
+</main>
+<footer>
+    <p>Alexander Kenfe &copy; 2026</p>
+</footer>
+</header>
+</body> 
+
